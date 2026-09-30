@@ -31,6 +31,12 @@ nav a {
    text-decoration: none;
    padding: 10px 20px;
    transition: background-color 0.3s ease;
+   border-radius: 5px;
+}
+
+a:hover {
+   background-color: #f72323;
+  color:black
 }
 
 .da {
@@ -108,10 +114,18 @@ nav a {
    font-size: 30px;
 }
 
+.dc img {
+   position: relative;
+   width: 200px;
+   height: auto;
+   margin: 10px;
+}
+
 .dca {
    background-color: rgb(157, 206, 206);
    border-radius: 20px;
    width: 50%;
+   flex-direction: column;
 }
 
 .dcb {
@@ -119,6 +133,7 @@ nav a {
    background-color: rgb(157, 206, 206);
    border-radius: 20px;
    width: 50%;
+   flex-direction: column;
 }
 
 .dd {
@@ -158,6 +173,18 @@ nav a {
    min-height: 150px;
    margin: 10px;
    border-radius: 100%;
+}
+
+.dd a {
+   color: #4e96d1;
+   text-decoration: none;
+   padding: 10px 20px;
+   transition: background-color 0.3s ease;
+}
+
+.dd a:hover {
+   color:#0a6897;
+   background-color:#476fa300;
 }
 
 footer {

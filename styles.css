@@ -31,6 +31,12 @@ nav a {
    text-decoration: none;
    padding: 10px 20px;
    transition: background-color 0.3s ease;
+   border-radius: 5px;
+}
+
+a:hover {
+   background-color: #000000;
+   color:rgb(146, 0, 0)
 }
 
 .da {
@@ -61,6 +67,73 @@ nav a {
    font-size: 18px;
    margin-left: 20px;
    float: left;
+}
+
+.db {
+   background-color: #ad58df;
+   position: relative;
+   border-radius: 20px;
+   top: 20px;
+   width: 70%;
+   height: 95%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto;
+   flex-direction:column;
+}
+
+.db h2 {
+   font-size: 30px;
+   margin-bottom: 5px;
+}
+
+.db p {
+   position: relative;
+   font-family: 'Arial', cursive, sans-serif;
+   font-size: 18px;
+   margin: 20px;
+   text-indent: 4ch;
+   
+}
+
+.dc {
+   background-color: #ad58df;
+   position: relative;
+   border-radius: 20px;
+   top: 50px;
+   width: auto;
+   height: auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 30px;
+   margin-bottom: 200px;
+   flex-direction:column;
+}
+
+.dc h2 {
+   font-size: 30px;
+   margin-bottom: 5px;
+   top: 0;
+}
+
+
+.dd img {
+   position: relative;
+   width: 300px;
+   height: 200px;
+   margin: 10px;
+   border-radius: 20%;
+   border: #e2a6f1af 4px solid;
+}
+
+.dd {
+   gap:20px;
+   height: 100%;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: repeat(9, 1fr);
 }
 
 footer {
