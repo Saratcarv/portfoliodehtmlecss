@@ -1,9 +1,8 @@
 body {
    margin: 0;
-   background-image: url(imagens/jintower.jpg);
+   background-image: url(../imagens/jintower.jpg);
    background-size: cover;
 }
-
 
 header  {
    position: sticky;
@@ -22,8 +21,6 @@ nav {
    justify-content: space-around;
    align-items: center;
    height: 100%; 
-   font-family: fantasy, sans-serif;
-   font-size: 20px;
 }
 
 nav a {
@@ -32,10 +29,12 @@ nav a {
    padding: 10px 20px;
    transition: background-color 0.3s ease;
    border-radius: 5px;
+   font-family: fantasy, sans-serif;
+   font-size: 20px;
 }
 
 a:hover {
-   background-color: rgb(116, 116, 116);
+   background-color: #747474;
    color:#963c00;
 }
 
@@ -53,32 +52,39 @@ a:hover {
 .da img {
    position: relative;
    float: right;
-   min-width: 150px;
-   max-height: 150px;
-   min-height: 150px;
+   width: 160px;
+   height: 150px;
    margin: 10px;
-   border-radius: 20%;
+   border-radius: 40px;
+}
+
+.da h1{
+   margin-bottom: 5px;
+}
+
+.da p{
+   font-size: smaller;
+   font-style: italic;
+   margin-top: 0px;
 }
 
 .ca {
    position: relative;
    left: 10px;
-   font-family: 'Arial', cursive, sans-serif;
+   font-family: 'Arial', sans-serif;
    font-size: 18px;
    margin-left: 20px;
    float: left;
 }
 
 .db {
-   background-color: rgb(255, 252, 83);
+   background-color: #fffc53;
    position: relative;
    border-radius: 20px;
    top: 20px;
-   
    width: 50%;
    height: 95%;
    display: flex;
-   justify-content: center;
    align-items: center;
    margin: 0 auto;
    padding: 20px;
@@ -88,15 +94,17 @@ a:hover {
 }
 
 .db a {
-   color: #c4a600;
+   color: #1a1a1a;
+   background-color: #dfab00;
    text-decoration: none;
+   border-radius: 5px;
    padding: 10px 20px;
    transition: background-color 0.3s ease;
 }
 
 .db a:hover {
-   color:#b17113;
-   background-color:#476fa300;
+   color:#dfab00;
+   background-color:#1a1a1a;
 }
 
 footer {
@@ -106,11 +114,10 @@ footer {
    width: 100%;
    height: 30px;
    background-color: #e6cf02;
-   padding: 10px 3;
+   padding: 3;
 }
 
 footer p {
-   margin: 0;
    font-family: fantasy, sans-serif;
    text-align: center;
    color: #fcfcfc;
